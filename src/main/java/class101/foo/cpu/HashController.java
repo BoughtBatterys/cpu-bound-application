@@ -19,7 +19,7 @@ public class HashController {
         return input;
     }
 
-    @RequestMapping("/hello deploy2")
+    @RequestMapping("/hello")
     public String hello() {
         return "hello deploy";
     }
